@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editUser, .listUser {
+  width: 45%;
+}
+
+.editUser form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editUser form button {
+  width: 20%;
+  float: left;
+}
